@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>현준우 영상 포트폴리오 | Video Director &amp; PD</title>
+    <meta
+      name="description"
+      content="영상 기획, 촬영, 편집, 모션그래픽 작업을 소개하는 영상 PD 현준우의 포트폴리오입니다."
+    />
+    <meta name="theme-color" content="#05070b" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="현준우 영상 포트폴리오 | Video Director &amp; PD" />
+    <meta
+      property="og:description"
+      content="영상 기획, 촬영, 편집, 모션그래픽 작업을 소개하는 영상 PD 현준우의 포트폴리오입니다."
+    />
+    <meta property="og:image" content="%BASE_URL%og-image.svg" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var redirect = params.get("redirect");
+        if (redirect) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
